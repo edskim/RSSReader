@@ -30,7 +30,7 @@
     if (self) {
         self.textLabel.text = entry.articleTitle;
         self.detailTextLabel.text = [entry.date description];
-        //self.imageView.image = entry.image;
+        self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     return self;
 }

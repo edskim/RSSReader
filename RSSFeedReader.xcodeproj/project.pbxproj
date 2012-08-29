@@ -21,6 +21,8 @@
 		64822A5A15EDAACE00844696 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64822A5815EDAACD00844696 /* WebViewController.m */; };
 		64822A5B15EDAACE00844696 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64822A5915EDAACD00844696 /* WebViewController.xib */; };
 		64A1C08E15EEC0AF00A71B48 /* ArticlesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A1C08D15EEC0AF00A71B48 /* ArticlesStore.m */; };
+		64A1C09915EED8EB00A71B48 /* xkcd.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A1C09815EED8EB00A71B48 /* xkcd.png */; };
+		64A1C09B15EED97100A71B48 /* xkcd2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A1C09A15EED97000A71B48 /* xkcd2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		64822A5915EDAACD00844696 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		64A1C08C15EEC0AF00A71B48 /* ArticlesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesStore.h; sourceTree = "<group>"; };
 		64A1C08D15EEC0AF00A71B48 /* ArticlesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesStore.m; sourceTree = "<group>"; };
+		64A1C09815EED8EB00A71B48 /* xkcd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xkcd.png; path = ../xkcd.png; sourceTree = "<group>"; };
+		64A1C09A15EED97000A71B48 /* xkcd2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xkcd2x.png; path = ../xkcd2x.png; sourceTree = "<group>"; };
 		A35D67AAAD2345E58CADF2E3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +123,8 @@
 		64822A2D15ED85F400844696 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64A1C09A15EED97000A71B48 /* xkcd2x.png */,
+				64A1C09815EED8EB00A71B48 /* xkcd.png */,
 				64822A2E15ED85F400844696 /* RSSFeedReader-Info.plist */,
 				64822A2F15ED85F400844696 /* InfoPlist.strings */,
 				64822A3215ED85F400844696 /* main.m */,
@@ -182,6 +188,8 @@
 				64822A3115ED85F400844696 /* InfoPlist.strings in Resources */,
 				64822A4115ED867000844696 /* RSSTableViewController.xib in Resources */,
 				64822A5B15EDAACE00844696 /* WebViewController.xib in Resources */,
+				64A1C09915EED8EB00A71B48 /* xkcd.png in Resources */,
+				64A1C09B15EED97100A71B48 /* xkcd2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
