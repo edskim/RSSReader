@@ -5,6 +5,7 @@ PODS:
   - LibComponentLogging-Core (1.3.1)
   - LibComponentLogging-NSLog (1.0.4):
     - LibComponentLogging-Core (>= 1.1.6)
+  - MBProgressHUD (0.5)
   - NSData+Base64 (1.0.0)
   - RestKit (0.10.2):
     - RestKit/JSON (= 0.10.2)
@@ -41,5 +42,6 @@ PODS:
     - NSData+Base64 (~> 1.0)
 
 DEPENDENCIES:
+  - MBProgressHUD
   - RestKit
   - RestKit/XML

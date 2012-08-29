@@ -13,7 +13,10 @@
 @property (strong) NSString *articleTitle;
 @property (strong) NSString *url;
 @property (strong) NSString *date;
+@property (strong) NSURL *imageURL;
 @property (strong) UIImage *image;
 
-- (id)initWithBlogTitle:(NSString*)bTitle withArticleTitle:(NSString*)sTitle withURL:(NSString*)url withDate:(NSString*)date withImage:(UIImage*)img;
+- (id)initWithBlogTitle:(NSString*)bTitle withArticleTitle:(NSString*)sTitle withURL:(NSString*)url withDate:(NSString*)date withImage:(NSURL*)imgURL;
+
+- (void)performBlockWithImage:(void(^)(void))block;
 @end

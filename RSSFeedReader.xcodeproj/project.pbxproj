@@ -20,6 +20,7 @@
 		64822A4F15ED8ADF00844696 /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 64822A4E15ED8ADF00844696 /* RSSEntry.m */; };
 		64822A5A15EDAACE00844696 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64822A5815EDAACD00844696 /* WebViewController.m */; };
 		64822A5B15EDAACE00844696 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64822A5915EDAACD00844696 /* WebViewController.xib */; };
+		64A1C08E15EEC0AF00A71B48 /* ArticlesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A1C08D15EEC0AF00A71B48 /* ArticlesStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		64822A5715EDAACD00844696 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		64822A5815EDAACD00844696 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		64822A5915EDAACD00844696 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		64A1C08C15EEC0AF00A71B48 /* ArticlesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesStore.h; sourceTree = "<group>"; };
+		64A1C08D15EEC0AF00A71B48 /* ArticlesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesStore.m; sourceTree = "<group>"; };
 		A35D67AAAD2345E58CADF2E3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -96,6 +99,8 @@
 			children = (
 				64822A3515ED85F400844696 /* AppDelegate.h */,
 				64822A3615ED85F400844696 /* AppDelegate.m */,
+				64A1C08C15EEC0AF00A71B48 /* ArticlesStore.h */,
+				64A1C08D15EEC0AF00A71B48 /* ArticlesStore.m */,
 				64822A4D15ED8ADF00844696 /* RSSEntry.h */,
 				64822A4E15ED8ADF00844696 /* RSSEntry.m */,
 				64822A3D15ED867000844696 /* RSSTableViewController.h */,
@@ -210,6 +215,7 @@
 				64822A4B15ED8A1500844696 /* RSSTableViewCell.m in Sources */,
 				64822A4F15ED8ADF00844696 /* RSSEntry.m in Sources */,
 				64822A5A15EDAACE00844696 /* WebViewController.m in Sources */,
+				64A1C08E15EEC0AF00A71B48 /* ArticlesStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
