@@ -7,6 +7,7 @@
 //
 
 #import "ArticlesStore.h"
+#import "MBProgressHUD.h"
 #import "RSSEntry.h"
 #import "RSSTableViewController.h"
 #import "RSSTableViewCell.h"
@@ -36,9 +37,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"xkcd";
     ArticlesStore *sharedStore = [ArticlesStore sharedStore];
+    [MBProgressHUD showHUDAddedTo:self.tableView animated:YES];
     [sharedStore refreshArticlesWithBLock:^{
         [self.tableView reloadData];
+        [MBProgressHUD hideHUDForView:self.tableView animated:YES];
     }];
 }
 
